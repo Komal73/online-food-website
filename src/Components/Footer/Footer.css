@@ -1,0 +1,49 @@
+.footer{
+    background-color: green;
+    /* height: 20rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    width: 20%;
+}
+.social>i{
+    transition: 0.5s;
+}
+.social>i:hover{
+    transform: scale(1.5);
+}
+
+i{
+    color: white;
+    cursor: pointer;
+    size: 20px;
+}
+a>i{
+    transition: 0.6s;
+}
+
+.website{
+    
+    font-size: large;
+}
+.copyright{
+    margin: 10px;
+}
